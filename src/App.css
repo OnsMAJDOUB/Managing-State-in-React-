@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+input,
+textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  max-width: 400px;
+}
+.task-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-item {
+  background-color: #8de6812b;
+
+  padding: 20px;
+  margin: 10px 0;
+  width: 80%;
+  max-width: 400px;
+  text-align: left;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.task-item.completed {
+  text-decoration: line-through;
+  background-color: #8886862a;
+}
+/* .task-item.completed.buttons :disabled{
+  opacity: 0.5;
+} */
